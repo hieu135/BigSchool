@@ -9,7 +9,7 @@ namespace BigShool.Models
 {
         public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         {
-            public DbSet<Course> Course { get; set; }
+            public DbSet<Course> Courses { get; set; }
             public DbSet<Category> Categories { get; set; }
 
             public ApplicationDbContext()
